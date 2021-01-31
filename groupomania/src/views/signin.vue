@@ -1,5 +1,3 @@
 <template>
-    <v-card elevation="4">
-        
-    </v-card>
+    <div>Test</div>
 </template>
