@@ -8,11 +8,11 @@
 </template>
 
 <script>
-import accueil from './components/accueil';
-import connexion from './components/connexion';
+import accueil from './views/accueil';
+import connexion from './views/connexion';
 
 export default {
-  name: 'App',
+  name: 'Index',
 
   components: {
     accueil,
