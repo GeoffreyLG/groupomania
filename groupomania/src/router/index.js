@@ -5,21 +5,17 @@ import Signin from '../views/signin.vue'
 
 Vue.use(VueRouter)
 
-const routes = [
-  {
-    path: '/',
-    name: 'Index',
-    component: App
-  },
-  {
-    path: '/signin',
-    name: 'Signin',
-    component: Signin
-  },
-]
-
-const router = new VueRouter({
-  routes
+export default new VueRouter({
+  routes:[
+    {
+      path: '/',
+      name: 'Index',
+      component: App
+    },
+    {
+      path: '/signin',
+      name: 'Signin',
+      component: Signin
+    },
+  ]
 })
-
-export default router
