@@ -1,21 +1,16 @@
 import Vue from 'vue'
-import VueRouter from 'vue-router'
-import App from '@/App.vue'
-import Signin from '../views/signin.vue'
+import Router from 'vue-router'
+import Home from '@/components/Home'
 
-Vue.use(VueRouter)
+Vue.use(Router)
 
-export default new VueRouter({
+export default new Router({
   routes:[
     {
       path: '/',
-      name: 'Index',
-      component: App
+      name: 'index',
+      component: Home
     },
-    {
-      path: '/signin',
-      name: 'Signin',
-      component: Signin
-    },
-  ]
+  ],
+  mode: 'history'
 })
