@@ -13,16 +13,15 @@
           label="Password"
           required
         ></v-text-field>
+        <v-btn elevation="2" rounded to="/" color="secondary" class="mr-4">
+          Cancel
+        </v-btn>
         <v-btn
           elevation="2"
           rounded 
-          class="mr-4"
           type="submit"
         >
           submit
-        </v-btn>
-        <v-btn elevation="2" rounded to="/" color="secondary">
-          Cancel
         </v-btn>
       </form>
   </v-container>

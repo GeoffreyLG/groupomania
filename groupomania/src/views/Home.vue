@@ -18,13 +18,9 @@
         </v-row>
         <v-row class="text-center">
             <v-col>
-                <v-btn elevation="2" rounded to="/signin">
+                <v-btn elevation="2" rounded to="/signin" class="mr-4">
                     Se connecter
                 </v-btn>
-            </v-col>
-        </v-row>
-        <v-row class="text-center">
-            <v-col>
                 <v-btn elevation="2" rounded to="/subscribe">
                     S'inscrire
                 </v-btn>
