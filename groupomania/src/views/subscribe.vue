@@ -2,17 +2,15 @@
   <v-container>
       <form>
         <v-text-field
-          v-model="name"
-          :counter="10"
+          v-model="firstName"
           :error-messages="errors"
-          label="Name"
+          label="First name"
           required
         ></v-text-field>
         <v-text-field
-          v-model="phoneNumber"
-          :counter="7"
+          v-model="lastName"
           :error-messages="errors"
-          label="Phone Number"
+          label="Last name"
           required
         ></v-text-field>
         <v-text-field
