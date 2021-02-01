@@ -5,7 +5,6 @@
       color="primary"
       dark
     >
-    <v-btn elevation="2" rounded to="/signin">Connexion</v-btn>
     </v-app-bar>
     <v-main>
       <router-view></router-view>
