@@ -25,7 +25,7 @@
         </v-row>
         <v-row class="text-center">
             <v-col>
-            <v-btn elevation="2" rounded color="secondary">
+            <v-btn elevation="2" rounded color="secondary" to="/subscribe">
                 S'inscrire
             </v-btn>
             </v-col>
